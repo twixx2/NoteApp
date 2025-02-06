@@ -1,0 +1,14 @@
+.note__list-btn {
+    width: 56px;
+    height: 56px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    background: rgb(243, 237, 247);
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}

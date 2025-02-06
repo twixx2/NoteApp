@@ -1,0 +1,121 @@
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15px;
+}
+
+.main-header h2 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 127%;
+    color: #323232;
+}
+
+.main-header button span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #6750a4;
+}
+
+.main-header button {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    width: 120px;
+    height: 56px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.05);
+    background: rgb(243, 237, 247);
+}
+
+.note__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.note__list article {
+    padding: 16px;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.15), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    background: rgb(243, 237, 247);
+    border-radius: 16px;
+}
+
+.note__list-item-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.note__list-item-header.between {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.note__list article h3 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #1c1b1f;
+}
+
+.note__list article span {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    color: #cac4d0;
+}
+
+.note__list article p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    color: #49454f;
+    margin-top: 16px;
+}
+
+.btns__group {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 16px;
+}
+
+.btns__group button {
+    padding: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.btns__group button span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #6750a4;
+}
+
+.btns__group button.remove span {
+    color: #cf1b1b;
+}
+
+.note__list.between {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
