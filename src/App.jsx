@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Main from "./widgets/Main/Main";
 import NavBar from "./widgets/NavBar/NavBar";
 import ControlModal from "./widgets/ControlModal/ControlModal";
-import AddNoteBtn from "./widgets/AddNoteBTn/AddNoteBtn";
+import AddNoteBtn from "./widgets/AddNoteBtn/AddNoteBtn";
 import { v4 as uuidv4 } from 'uuid';
 import { toast } from "react-toast";
 
